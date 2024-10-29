@@ -1,0 +1,145 @@
+
+.webweb_wp_admin_ui_simplificator_admin {
+    width: 100%;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .app_table {
+	width: 30%;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .app_table_half {
+	width:50%;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .app_table_medium {
+	width:75%;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .app_table_full {
+	width:100%;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .app_table td {
+	padding:10px;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .webweb_wp_plugin .input_field, .webweb_wp_admin_ui_simplificator .input_field {
+	min-width:220px;
+    width:550px;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .form-table textarea {
+	width:550px;
+    height: 150px;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .success, .webweb_wp_admin_ui_simplificator_admin .app_success {
+    color: green;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .app_error, .webweb_wp_admin_ui_simplificator_admin .app_delete_button {
+    color: red;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .app_hide {
+    display: none;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .app_message_box {
+    _margin: 5px 5px 15px;
+    margin: 0;
+    padding:5px;
+    background-color: #ffffcc;
+}
+
+/* .asterisk is for the *naked* newsletter signup form (mailchimp) */
+.webweb_wp_admin_ui_simplificator_admin .asterisk, .webweb_wp_admin_ui_simplificator_admin .app_asterisk {
+    color: red;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .main_content {
+	float: left;
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    vertical-align: top;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .admin_sidebar {
+	float: right;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+.webweb_wp_admin_ui_simplificator_admin .remote_content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .link_list li a {
+    background: url("../zzz_media/star.png") no-repeat scroll 0 0 transparent;
+    padding: 0 0 3px 20px;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .dashed_border {
+    border:1px dashed red;
+    padding:5px;
+    margin-right:5px;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .webweb_wp_plugin .webweb_wp_admin_ui_simplificator_admin .op_cmd_right {
+	float: right;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .status_image {
+    vertical-align: bottom;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .donation {
+    margin-left: 10px;
+    margin: 0;
+    padding:5px;
+    background-color: transparent;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .newsletter_box {
+    margin-right:5px;
+    margin-left:0px;
+}
+
+/* Newsletter and Donation Stuff */
+.webweb_wp_admin_ui_simplificator_admin .app_mailing_list_box {
+      margin: 0;
+      __padding:5px;
+      background-color: #ffffcc;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .zzz_app_mailing_list_container ul .newsletter_form {
+      float:left;
+      width: auto;
+      border: 1px red dashed;
+      padding: 5px;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .zzz_app_mailing_list_container ul .newsletter_qr {
+      float:right;
+      width: 30%;
+}
+
+.webweb_wp_admin_ui_simplificator_admin .zzz_app_mailing_list_container ul li {
+
+}
+
+.webweb_wp_admin_ui_simplificator_admin .mc-field-group label {
+      width: 100px;
+      float: left;
+}
+
+/* hides the collapse link & help section in the sidebar */
+#collapse-menu, #screen-meta-links {
+    display: none;
+}
